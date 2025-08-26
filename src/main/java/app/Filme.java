@@ -39,6 +39,6 @@ public class Filme {
 
     @Override
     public String toString() {
-        return this.getTitulo() + "(" + this.getGenero().getNome() + ")";
+        return this.getId() + " - " + this.getTitulo() + "(" + this.getGenero().getNome() + ")";
     }
 }
